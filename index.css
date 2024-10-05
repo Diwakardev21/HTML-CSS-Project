@@ -1,0 +1,203 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box
+}
+.he{
+    float: right;
+    display: flex;
+    gap: 20px;
+}
+.image{
+    background-image: url(./images/home-bg.jpg);
+    width: 100%;
+    height: 70vh;
+}
+.image1{
+    width: 500px;
+    position: absolute;
+    top: 30%;
+    left: 40%;
+    color: white;
+}
+.image1 img{
+    margin-top: 20px;
+}
+.parent{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 60px ;
+    gap: 20px;
+}
+.parent div{
+    width: 250px;
+}
+.lorem{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.lorem2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.parent-2{
+    width: 80vw;
+    display: flex;
+    align-items: center;
+    margin-left: 200px;
+    gap: 30px;
+}
+.child-1{
+    width: 50%;
+    margin-bottom: 20px;
+}
+.child-2{
+    width: 50%;
+    margin: 30px;
+}
+.box{
+    background-color: blue ;
+    width: 100%;
+    padding: 20px;
+    color: white;
+}
+section{
+    width: 100%;
+    background-color: whitesmoke;
+    padding: 50px;
+}
+section h1{
+    text-align: center;
+    color: black;
+}
+.main-section{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    margin-top: 40px;
+}
+.main-box{
+    width: 300px;
+    height: 400px;
+    text-align: center;
+    line-height: 2;
+    border:1px solid black ;
+}
+.child-box-1{
+    height: 25%;
+    background-color: blue;
+    color: white;
+}
+.child-box-2{
+    height:75%;
+    background-color: white;
+    line-height: 3;
+}
+section span{
+    padding: 10px 20px;
+    color: blue;
+    border:1px solid blue;
+}
+section span:hover{
+    background-color: rgb(50, 50, 223);
+    color:white;
+}
+.section-software{
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+    gap:20px;
+}
+.software{
+    width: 450px;
+    height: 300px;
+    line-height:1.8;
+}
+.software span{
+    background-color: blue;
+    padding: 6px;
+    color: white;
+    border: 1px solid whitesmoke;
+}
+.software-2 img{
+    width: 350px;
+}
+.form{
+    width: 100%;
+    background-image: url(./images/contact-bg.jpg);
+    background-size:cover;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 70px;
+}
+.contact{
+    width: 400px;
+    color:rgba(255, 255, 255, 0.979);
+    line-height: 2;
+    display: flex;
+    flex-direction: column;
+}
+.contact p{
+    line-height: normal;
+}
+.contact img{
+    width: 30px;
+}
+.location, .phone, .msg{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    color:whitesmoke;
+    margin-top: 20px;
+
+}
+.form-2{
+   
+    display: grid;
+    grid-template-columns: 3 1fr;
+    gap:20px;   
+}
+.text{
+    grid-column: 1/2;
+    grid-row: 1/2;
+    padding: 10px;
+}
+.email{
+    grid-column: 2/3;
+    grid-row: 1/2;
+    padding: 10px;
+}
+.text2{
+    grid-column: 1/3;
+    grid-row: 2/3;
+    padding: 10px;
+}
+.textarea{
+    grid-column: 1/3;
+    grid-row: 3/4;
+    padding: 10px;
+}
+.form-2 button{
+    background-color: blue;
+    color: white;
+    padding: 10px;
+    border: none;
+}
+
+footer{
+    width: 100%;
+    height: 50px;
+    text-align: center;
+    padding: 20px;
+}
+footer a{
+    text-decoration: none;
+    color: blue;
+}
